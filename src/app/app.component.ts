@@ -12,8 +12,8 @@ export class AppComponent {
   appMinLabel: string = 'myAppMinLabel';
   appMaxLabel: string = 'myAppMaxLabel'
 
-  squreHeight = 100;
-  squreWidth = 100;
+  squareHeight = 100;
+  squareWidth = 100;
 
   // ninjaName = 'kakachi';
 
