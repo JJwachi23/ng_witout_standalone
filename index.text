@@ -18,3 +18,9 @@ export class SqureFlexComponent implements OnInit {
 
   }
 }
+
+<div
+  style="background-color: green"
+  [style.width.px]="divWidth"
+  [style.height.px]="divHeight"
+></div>
