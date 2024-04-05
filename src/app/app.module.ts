@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ActionBarComponent } from './components/action-bar/action-bar.component';
+import { MaxMinMeterComponent } from './components/max-min-meter/max-min-meter.component';
+import { SqureFlexComponent } from './components/squre-flex/squre-flex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ActionBarComponent
+    ActionBarComponent,
+    MaxMinMeterComponent,
+    SqureFlexComponent
   ],
   imports: [
     BrowserModule,
